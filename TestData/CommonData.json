@@ -1,0 +1,21 @@
+{
+   
+    "LoginApp":
+    {
+        "URL": "https://qafe.mainline.gg/qa/rr/-/tournament/overview",
+        "AppName": "Mainline",
+        "RegistrationTitle": "overview"
+    },
+    "CreateAccountApp":
+    {
+        "URL": "https://qaglo.mainline.gg/signup",
+        "AppName": "Mainline",
+        "RegistrationTitle": "Create Account"
+    },
+    "App":
+    {
+        "URL": "https://www.protractortest.org/",
+        "Title": "Protractor - end-to-end testing for AngularJS",
+        "GitHub": "GitHub - angular/protractor: E2E test framework for Angular apps"
+    }
+}
