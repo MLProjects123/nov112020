@@ -1,0 +1,14 @@
+[
+   
+    {
+        "TC0": {
+            "LoginEmail": "instantpost101@gmail.com",
+            "LoginPassword": "tesT1234"
+        },
+        "TC1": {
+            "LoginEmail": "Gamer1300@mailinator.com",
+            "LoginPassword": "Test1234"
+        }
+
+    }
+]

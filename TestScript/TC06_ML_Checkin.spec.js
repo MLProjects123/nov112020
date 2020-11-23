@@ -8,7 +8,7 @@ Author: Aditya Roy
 //Importing modules
 var testSetUp = require("../Test Environment/Environment.js");
 var reportPath = require("../Report/GenerateReport.js");
-var home = require("../Pages/registration.js");
+var home = require("../Pages/MOD_checkin.js.js");
 var tutorial = require("../Pages/login.js");
 var dateFormat = require('dateformat');
 var testdata = require("../TestData/TestData.json");
@@ -33,7 +33,7 @@ describe('Validation of www.protractortest.org HomePage', function() {
 
         var homePage = new home();
         var tutorialPage = new tutorial();
-
+        browser.get("https://qafe.mainline.gg/qa/counter-strike/-/tournament/overview");
             HomePage.clickLogin();
             HomePage. LoginUserDetails(inputData.TC0.LoginEmail,
                                       inputData.TC0.LoginPassword,
@@ -42,15 +42,21 @@ describe('Validation of www.protractortest.org HomePage', function() {
             HomePage.clickLoginModal();
                 
 
-            homePage.navigateSignUpNow(resultPath);
-            homePage.navigateCreateTeambutton(resultPath);
-            homePage.navigateToEnterText(resultPath);
-            homePage.navigateToSavebutton(resultPath);
-            homePage.navigateToCancelbtn(resultPath);
-            homePage.navigateToRegisterbtn(resultPath);
+            homePage.navigateToMatchButton(resultPath);
+            homePage.navigateToTeambButton(resultPath);
+            homePage.navigateToCheck1stbutton(resultPath);
+            homePage.navigateToConfirmbutton(resultPath);
+            homePage.navigateToCheckinbtn2(resultPath);
+            homePage.navigateToConfirmbutton(resultPath);
+
+            homePage.navigateToMatchButton(resultPath);
+            homePage.navigateToTeamDButton(resultPath);
+            homePage.navigateToCheckinbtn3(resultPath);
+            homePage.navigateToConfirmbutton(resultPath);
+            homePage.navigateToCheckinbtn4(resultPath);
+            homePage.navigateToConfirmbutton(resultPath);
 
             
-        Report.updateDuration(resultPath);
               
     });
        
